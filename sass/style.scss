@@ -17,6 +17,7 @@ body {
 	width: 400px;
 	background-color: #ddd;
 	border-radius: 8px;
+    overflow: hidden;
 
 	&__img {
 		width: 100%;
@@ -29,4 +30,20 @@ body {
 	&__text {
 		margin: 20px 0;
 	}
+
+    &__btns{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__btn{
+        padding: 10px 20px;
+        border: 1px solid #000;
+        border-radius: 8px;
+        cursor: pointer;
+
+        &--highlight {
+            background-color: goldenrod;
+        }
+    }
 }

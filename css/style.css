@@ -17,6 +17,7 @@ body {
   width: 400px;
   background-color: #ddd;
   border-radius: 8px;
+  overflow: hidden;
 }
 .card__img {
   width: 100%;
@@ -26,4 +27,17 @@ body {
 }
 .card__text {
   margin: 20px 0;
+}
+.card__btns {
+  display: flex;
+  justify-content: space-around;
+}
+.card__btn {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.card__btn--highlight {
+  background-color: goldenrod;
 }/*# sourceMappingURL=style.css.map */
